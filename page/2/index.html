@@ -11,9 +11,10 @@
     <title>Hexo Test Blog</title>
 
     
+    <!-- Social Sharing Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
 
-
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Source+Serif+Pro" rel="stylesheet">
 
     <!-- jQuery so Bootstrap doesn't get cranky  -->
@@ -83,7 +84,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/25/tag-plugins/">Tag Plugins</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/25/tag-plugins/">
+        Tag Plugins
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -104,6 +110,7 @@
 <h3 id="With-caption-and-URL"><a href="#With-caption-and-URL" class="headerlink" title="With caption and URL"></a>With caption and URL</h3><figure class="highlight plain"><figcaption><span>.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">.compact([0, 1, false, 2, ‘’, 3]);</div><div class="line">=&gt; [1, 2, 3]</div></pre></td></tr></table></figure>
 <h3 id="With-marked-lines"><a href="#With-marked-lines" class="headerlink" title="With marked lines"></a>With marked lines</h3><p>Line 1,7-8,10 should be marked with different color.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line marked"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"></div><div class="line"><span class="keyword">const</span> hostname = <span class="string">'127.0.0.1'</span>;</div><div class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</div><div class="line"></div><div class="line">http.createServer((req, res) =&gt; &#123;</div><div class="line marked">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">'Content-Type'</span>: <span class="string">'text/plain'</span> &#125;);</div><div class="line marked">  res.end(<span class="string">'Hello World\n'</span>);</div><div class="line">&#125;).listen(port, hostname, () =&gt; &#123;</div><div class="line marked">  <span class="built_in">console</span>.log(<span class="string">`Server running at http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/`</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="Using-Backticks"><a href="#Using-Backticks" class="headerlink" title="Using Backticks"></a>Using Backticks</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">const http = require(&apos;http&apos;);</div><div class="line"></div><div class="line">const hostname = &apos;127.0.0.1&apos;;</div><div class="line">const port = 1337;</div><div class="line"></div><div class="line">http.createServer((req, res) =&gt; &#123;</div><div class="line">  res.writeHead(200, &#123; &apos;Content-Type&apos;: &apos;text/plain&apos; &#125;);</div><div class="line">  res.end(&apos;Hello World\n&apos;);</div><div class="line">&#125;).listen(port, hostname, () =&gt; &#123;</div><div class="line">  console.log(`Server running at http://$&#123;hostname&#125;:$&#123;port&#125;/`);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <p>Note: Theme’s style should support <code>.highlight.line.marked</code> (recommend to use the selection or current line color).</p>
 <h3 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h3><script src="//gist.github.com/996818.js"></script>
 <h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><iframe scrolling="no" width="100%" height="300" src="http://jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light" frameborder="0" allowfullscreen></iframe>
@@ -172,7 +179,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/link-post-without-title/">www.google.com</a></h1>
+    
+      <h1 class='post-title'><a href="http://www.google.com/" target="_blank">
+        www.google.com
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -238,7 +250,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/日本語テスト/">日本語テスト</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/日本語テスト/">
+        日本語テスト
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -313,7 +330,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/中文測試/">中文測試</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/中文測試/">
+        中文測試
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -387,7 +409,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/long-title/">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/long-title/">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -457,7 +484,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/categories/">Categories</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/categories/">
+        Categories
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -523,7 +555,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/link-post/">Link Post</a></h1>
+    
+      <h1 class='post-title'><a href="http://www.google.com/" target="_blank">
+        Link Post
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -593,7 +630,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/tags/">Tags</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/tags/">
+        Tags
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -659,7 +701,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/elements/">Elements</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/elements/">
+        Elements
+      </a></h1>
+    
+
 
   <div class="post-content">
     
@@ -772,7 +819,12 @@
 
   </aside>
   <div class="post-body col-md-8">
-  <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/hello-world/">Hello World</a></h1>
+    
+      <h1 class='post-title'><a href="/hexo-test-blog/2013/12/24/hello-world/">
+        Hello World
+      </a></h1>
+    
+
 
   <div class="post-content">
     
